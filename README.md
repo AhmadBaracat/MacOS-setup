@@ -10,3 +10,13 @@ https://www.alfredapp.com/
 ## Install Homebrew
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 Note that this will install Command Line Tools for Xcode
+
+## iTerm Related
+### Install zplug
+`brew install zplug`
+
+Add these to `~/.zshrc`
+```
+export ZPLUG_HOME=$(brew --prefix)/opt/zplug
+source $ZPLUG_HOME/init.zsh
+```
