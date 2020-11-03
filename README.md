@@ -12,6 +12,9 @@ https://www.alfredapp.com/
 Note that this will install Command Line Tools for Xcode
 
 ## iTerm Related
+### Install ohmyzsh
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
 ### Install zplug
 `brew install zplug`
 
@@ -20,3 +23,8 @@ Add these to `~/.zshrc`
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
 source $ZPLUG_HOME/init.zsh
 ```
+
+### Install Dracula Theme
+Add `zplug "dracula/zsh", as:theme` to your ~/.zshrc file.
+Run `zplug install`
+
