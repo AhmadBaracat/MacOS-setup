@@ -18,5 +18,12 @@ Note that this will install Command Line Tools for Xcode
 ### Install Dracula Theme
 Follow `Install manually` & `Activating theme` instructions on https://draculatheme.com/zsh
 
+### Show full path with ~/
+* `vim ~/.oh-my-zsh/themes/dracula.zsh-theme`
+* Find `%c` (type `/%c` and then enter 😄)
+* Press `i` to enter edit mode 😄
+* Replace `%c` with `%~`
+
+
 ## View hidden files
 Go to the root directory in `Finder` and press `Command+Shift+Dot`
